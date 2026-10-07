@@ -14,3 +14,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Server configuration
+
+Copy `server/.env.example` to `server/.env` and set `MONGO_URI` to your own MongoDB connection string. Start the server from the `server` directory so dotenv loads the file. Keep credentials out of Git.
